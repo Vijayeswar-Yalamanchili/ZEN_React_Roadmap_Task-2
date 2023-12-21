@@ -1,7 +1,8 @@
 import React from 'react'
 
 function Card() {
-  return  <div className="col mb-5">
+    return <>
+        <div className="col mb-5">
             <div className="card h-100">
                 <div className="badge bg-dark text-white position-absolute" style={{top: "0.5rem", right: "0.5rem"}}>Sale</div>
                 <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
@@ -17,7 +18,7 @@ function Card() {
                 </div>
             </div>
         </div>
- 
+    </>
 }
 
 export default Card
