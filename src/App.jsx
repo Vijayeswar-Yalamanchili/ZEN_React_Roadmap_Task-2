@@ -9,7 +9,7 @@ function App() {
     {
       name: "Fancy Product",
       tag : "sale",
-      price : "$40.00-$80.00",
+      price : "$40.00 - $80.00",
     },
     {
       name: "Special Item",
@@ -37,7 +37,7 @@ function App() {
     {
       name: "Fancy Product",
       tag : "sale",
-      price : "$120.00-$280.00",
+      price : "$120.00 - $280.00",
     },
     {
       name: "Special Item",
