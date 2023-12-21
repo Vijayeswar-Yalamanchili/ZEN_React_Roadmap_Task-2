@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbar() {
+function Navbar({cart,setCart}) {
     return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container px-4 px-lg-5">
@@ -16,7 +16,7 @@ function Navbar() {
                                 <li><a className="dropdown-item" href="#!">All Products</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#!">Popular Items</a></li>
-                                <li><a className="dropdown-item" href="#!">New Arrivals</a></li>
+                                <li><a c lassName="dropdown-item" href="#!">New Arrivals</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -24,7 +24,7 @@ function Navbar() {
                         <button className="btn btn-outline-dark" type="submit">
                             <i className="bi-cart-fill me-1"></i>
                             Cart
-                            <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            <span className="badge bg-dark text-white ms-1 rounded-pill">{cart}</span>
                         </button>
                     </form>
                 </div>
